@@ -20,4 +20,27 @@ h1 {
     color: red;
     text-shadow: 2px 2px 4px black;
     text-transform: uppercase;
+    /* Responsive tasarım için eklemeler */
+    margin: 0 10px; /* Yanlardan boşluk bırakarak içeriği sıkıştırmayı önler */
+    white-space: normal; /* Yazının satırlara bölünmesini sağlar */
+}
+
+/* Tablet ve daha küçük ekranlar için */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em; /* Yazı boyutunu küçültür */
+        text-align: center;
+        white-space: normal;
+
+    }
+    body {
+      height: auto; /* Height auto olursa içerik kadar oluyor böylece scroll oluyor aşşağıya dogru */
+    }
+}
+
+/* Mobil cihazlar için */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em; /* Yazı boyutunu daha da küçültür */
+    }
 }
