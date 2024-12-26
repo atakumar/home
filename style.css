@@ -1,0 +1,23 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: sans-serif; /* Yazı tipi belirtildi */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    color: red;
+    text-shadow: 2px 2px 4px black;
+    text-transform: uppercase;
+}
